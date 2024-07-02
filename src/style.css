@@ -1,1 +1,33 @@
-@import "~bootstrap/dist/css/bootstrap.min.css";
+body {
+    background-color: green;
+}
+
+.card-body {
+    background-color: white;
+    width: 400px;
+    height: 600px;
+    margin: 0 auto;
+    border-radius: 30px;
+    
+}
+
+.pica {
+    padding-left: 20px;
+    font-size: 150px;
+}
+.number {
+   
+    font-size: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.reverse {
+        
+    transform: rotate(180deg);
+        
+}
+
